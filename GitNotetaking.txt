@@ -1,0 +1,28 @@
+I've long used pastie as a way to keep web accessible notes that i can share with others, review later, etc.  It was a hack job (pastie isn't meant to support that use case), but it wasn't missing much.
+
+A good tool would look a lot like pastie but:
+- optimize pasted text for readability
+- have a user account that would let you see all your notes
+- be private by default but "anyone with URL" sharability
+- be unindexed in google by default
+- probably other stuff
+
+I can build that -- and might. Camlistore might be a good tool for it.
+
+BUT it occurs to me that github, textedit, and gist, might be a serviceable solution. Plus it let me dick around with github and learn some things, which is always cool.
+
+So -- this is my first foray. I've got a repository setup, https://github.com/tylerwillis/Notes
+
+I have a folder on my machine called notes which holds all my notes and I have that folder open in a TextMate project.
+
+When I want to add a new note, i create a txt doc in TextMate, open up Terminal, and...
+
+cd
+cd dekstop
+cd notes
+git init tylerwillis/notes.git
+git add -A
+git commit -m 'commit'
+git push origin master
+
+and my notes live in git.
