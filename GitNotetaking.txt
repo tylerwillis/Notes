@@ -20,7 +20,7 @@ When I want to add a new note, i create a txt doc in TextMate, open up Terminal,
 cd
 cd dekstop
 cd notes
-git init tylerwillis/notes.git
+git init tylerwillis/notes
 git add -A
 git commit -m 'commit'
 git push origin master
